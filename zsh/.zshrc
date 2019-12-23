@@ -85,7 +85,7 @@ export LANG=en_US.UTF-8
 export VISUAL='vim'
 export EDITOR=$VISUAL
 
-# User vim key bindings
+# Use vim key bindings
 bindkey -v
 
 # Compilation flags
