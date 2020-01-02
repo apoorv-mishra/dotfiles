@@ -59,3 +59,13 @@ let g:syntastic_check_on_wq = 0
 
 " Open NERDTree with Ctrlr+n
 map <C-n> :NERDTreeToggle<CR>
+
+" Runtime path for ctrlp.vim
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Map Ctrl+p for ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Ignore for ctrlp.vim
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
