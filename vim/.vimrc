@@ -43,3 +43,6 @@ else
 endif
 
 set number                 " Show line numbers.
+
+" Execute pathogen
+execute pathogen#infect()
