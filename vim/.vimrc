@@ -69,3 +69,6 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Ignore for ctrlp.vim
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
+
+" Yank to system clipboard
+set clipboard=unnamedplus
