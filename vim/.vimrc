@@ -72,3 +72,9 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
 
 " Yank to system clipboard
 set clipboard=unnamedplus
+
+" Enable case-insensitive search
+set ignorecase
+
+" Fallback to case-sensitive search in case any capital letters are used
+set smartcase
