@@ -66,9 +66,10 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " Map Ctrl+p for ctrlp.vim
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_show_hidden = 1
 
 " Ignore for ctrlp.vim
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/vendor/*,*/_vendor*/*
 
 " Yank to system clipboard
 set clipboard=unnamedplus
