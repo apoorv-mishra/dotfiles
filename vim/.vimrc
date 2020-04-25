@@ -10,9 +10,9 @@ filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
 
 set autoindent             " Indent according to previous line.
-set expandtab              " Use spaces instead of tabs.
-set softtabstop =2         " Tab key indents by 2 spaces.
-set shiftwidth  =2         " >> indents by 2 spaces.
+set tabstop=8
+set softtabstop=0 noexpandtab
+set shiftwidth  =8
 set shiftround             " >> indents to next multiple of 'shiftwidth'.
 
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
