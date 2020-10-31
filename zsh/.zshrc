@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/go/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/apoorv/.oh-my-zsh"
@@ -104,3 +104,7 @@ alias mymeteor=/home/apoorv/Projects/meteor/meteor
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export GOPATH=$HOME/go
+
+export WINDOWID=$(xdotool getwindowfocus)
