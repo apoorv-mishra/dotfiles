@@ -83,3 +83,7 @@ set smartcase
 " https://github.com/Quramy/tsuquyomi#integrate-with-syntastic
 let g:tsuquyomi_disable_quickfix = 1
 let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
+
+" https://github.com/ntpeters/vim-better-whitespace#usage
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
