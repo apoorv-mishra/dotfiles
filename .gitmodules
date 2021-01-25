@@ -13,3 +13,6 @@
 [submodule "vim/.vim/bundle/vim-javascript"]
 	path = vim/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/.vim/bundle/vimproc.vim"]
+	path = vim/.vim/bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
