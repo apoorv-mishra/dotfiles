@@ -10,9 +10,9 @@ filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
 
 set autoindent             " Indent according to previous line.
-set tabstop=8
-set softtabstop=0 noexpandtab
-set shiftwidth  =8
+set tabstop=2
+set softtabstop=0 expandtab
+set shiftwidth  =2
 set shiftround             " >> indents to next multiple of 'shiftwidth'.
 
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
@@ -86,3 +86,6 @@ let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' ch
 
 " https://github.com/MaxMEllon/vim-jsx-pretty
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
+
+" https://github.com/plasticboy/vim-markdown#disable-folding
+let g:vim_markdown_folding_disabled = 1
