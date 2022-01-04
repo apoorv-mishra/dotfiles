@@ -108,3 +108,5 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH=$HOME/go
 
 export WINDOWID=$(xdotool getwindowfocus)
+
+export SERENITY_QEMU_BIN=$HOME/Projects/serenity/Toolchain/Build/i686/qemu/qemu-system-i386
