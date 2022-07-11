@@ -3,7 +3,7 @@
 "
 
 " You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway.
-" We set it explicitely to make our position clear!
+" We set it explicitly to make our position clear!
 set nocompatible
 
 filetype plugin indent on  " Load plugins according to detected filetype.
@@ -47,16 +47,6 @@ set number                 " Show line numbers.
 " Execute pathogen
 execute pathogen#infect()
 
-" Recommended syntastic settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
 " Open NERDTree with Ctrlr+n
 map <C-n> :NERDTreeToggle<CR>
 
@@ -79,13 +69,3 @@ set ignorecase
 
 " Fallback to case-sensitive search in case any capital letters are used
 set smartcase
-
-" https://github.com/Quramy/tsuquyomi#integrate-with-syntastic
-let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
-
-" https://github.com/MaxMEllon/vim-jsx-pretty
-let g:vim_jsx_pretty_colorful_config = 1 " default 0
-
-" https://github.com/plasticboy/vim-markdown#disable-folding
-let g:vim_markdown_folding_disabled = 1
