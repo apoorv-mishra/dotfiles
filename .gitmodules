@@ -13,6 +13,3 @@
 [submodule "vim/.vim/pack/vim-jsx-pretty/start/vim-jsx-pretty"]
 	path = vim/.vim/pack/vim-jsx-pretty/start/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
-[submodule "vim/.vim/bundle/vim-ruby"]
-	path = vim/.vim/bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
