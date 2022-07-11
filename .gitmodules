@@ -7,6 +7,3 @@
 [submodule "vim/.vim/bundle/sleuth"]
 	path = vim/.vim/bundle/sleuth
 	url = https://tpope.io/vim/sleuth.git
-[submodule "vim/.vim/pack/vim-jsx-pretty/start/vim-jsx-pretty"]
-	path = vim/.vim/pack/vim-jsx-pretty/start/vim-jsx-pretty
-	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
