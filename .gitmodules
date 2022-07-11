@@ -10,9 +10,6 @@
 [submodule "vim/.vim/bundle/sleuth"]
 	path = vim/.vim/bundle/sleuth
 	url = https://tpope.io/vim/sleuth.git
-[submodule "vim/.vim/bundle/vim-markdown"]
-	path = vim/.vim/bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "vim/.vim/bundle/vim-vue"]
 	path = vim/.vim/bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
